@@ -1,0 +1,24 @@
+{
+  "_help": "ranks: свои ранги (label, cmd=1 — команды /lp /ban, edit=1 — панель Edit). users: ник -> ранг. Tulkin всегда owner.",
+  "ranks": {
+    "owner": {
+      "label": "👑 Owner",
+      "cmd": 1,
+      "edit": 1
+    },
+    "admin": {
+      "label": "🛡 Админ",
+      "cmd": 1
+    },
+    "moderator": {
+      "label": "🔧 Модератор",
+      "cmd": 1
+    },
+    "vip": {
+      "label": "⭐ VIP"
+    }
+  },
+  "users": {
+    "Tulkin": "owner"
+  }
+}
